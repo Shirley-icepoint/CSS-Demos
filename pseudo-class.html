@@ -1,0 +1,54 @@
+<html>
+<style>
+	/* for LVHA */
+	.link:link {
+		color: red;
+	}
+
+	.link:visited {
+		color: yellow;
+	}
+
+	.link:hover {
+		color: purple;
+	}
+	.link:active {
+		color: black;
+	}
+
+	/* LVFHA or LVHFA*/
+	.button {
+		height: 44px;
+		width: 100px;
+		color: black;
+		border: solid;
+		border-color: grey;
+		background-color: white;
+
+	}
+
+	.button:focus {
+		background-color: white;
+		border-color: red;
+	}
+
+	.button:hover {
+		border-color: black;
+		background-color: white;
+	}
+	.button:active {
+		background-color: red;
+		border-color: red;
+
+	}
+</style>
+<body>
+	<div>
+		<a href="#" class="link">This is a link</a>
+	</div>
+	<div>
+		<button class="button" autofocus>Button</button>
+	</div>
+</body>
+
+</html>
