@@ -1,0 +1,35 @@
+<!-- Try to implement https://dribbble.com/shots/16389034-UX-Progress-Bars -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Progress Bars</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Progress</h1>
+            <div id="progress-1" class="progress">
+                <div class="number">1</div>
+                <div class="mini-bar active"></div>
+                <div class="mini-bar active"></div>
+                <div class="mini-bar"></div>
+                <div class="mini-bar"></div>
+                <div class="mini-bar"></div>
+                <div class="mini-bar"></div>
+            </div>
+            <div id="progress-2" class="progress">
+                <div class="number">2</div>
+                <div class="align-vertical">
+                    <div class="percent">0%</div>
+                    <div id="loading-bar-container">
+                        <div id="loading-bar"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
